@@ -15,7 +15,7 @@
   }
   
   .primary-button {
-    @apply w-28 text-base font-semibold px-2 py-2 rounded-md border-2 bg-primary dark:bg-dark-primary text-white border-primary dark:border-dark-primary hover:bg-white hover:text-primary hover:dark:text-dark-primary hover:dark:bg-white hover:border-2;
+    @apply w-28 text-base font-semibold px-2 py-2 rounded-md border-2 bg-primary dark:bg-dark-primary text-white dark:text-dark-bg border-primary dark:border-dark-primary hover:bg-white hover:text-primary hover:dark:text-dark-primary hover:dark:bg-white hover:border-2;
   }
 
   .navbar-link {

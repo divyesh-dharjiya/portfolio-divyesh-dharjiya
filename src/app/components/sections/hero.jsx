@@ -12,7 +12,7 @@ const HeroSection = () => {
             <div className="grid grid-cols-1 lg:grid-cols-12">
                 <div className="col-span-7 place-self-center mb-10 lg:mr-7 xl:mr-0 text-center sm:text-left">
                     <h1 className='text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-extrabold pb-1 mb-4 from-primary via-pink-800 to-pink-900 dark:from-dark-primary dark:via-pink-800 dark:to-pink-900 bg-gradient-to-r bg-clip-text text-transparent'>
-                        <span>Hello, I'm</span>
+                        <span>{`Hello, I'm`}</span>
                         <br />
                         <span>
                             <TypeAnimation
@@ -37,12 +37,12 @@ const HeroSection = () => {
                     </h1>
                     <div className='my-5'>
                         <div className='flex justify-center md:justify-start font-bold'>
-                            <Link href="https://github.com/divyesh-dharjiya" target="_blank">
+                            <Link href="https://github.com/divyesh-dharjiya" target="_blank" aria-label="GitHub">
                                 <div className="text-3xl text-primary dark:text-dark-primary p-2 border-2 hover:text-white hover:bg-primary dark:hover:bg-dark-primary dark:hover:text-dark-bg border-primary dark:border-dark-primary rounded-full m-1">
                                     <FaGithub />
                                 </div>
                             </Link>
-                            <Link href="https://www.linkedin.com/in/divyeshdharjiya/" target="_blank">
+                            <Link href="https://www.linkedin.com/in/divyeshdharjiya/" target="_blank" aria-label="LinkedIn">
                                 <div className="text-3xl text-primary dark:text-dark-primary p-2 border-2 hover:text-white hover:bg-primary dark:hover:bg-dark-primary dark:hover:text-dark-bg border-primary dark:border-dark-primary rounded-full m-1">
                                     <FaLinkedin />
                                 </div>
@@ -64,11 +64,11 @@ const HeroSection = () => {
                     <div className='mt-5'>
                         <div className='flex justify-center md:justify-start font-bold'>
                             <div className='bg-off-white dark:bg-dark-bg border-t-[3px] border-l-[3px] border-b-[3px] border-primary dark:border-dark-primary'>
-                                <div className='bg-primary dark:bg-dark-primary text-white px-7'>Projects</div>
+                                <div className='bg-primary dark:bg-dark-primary text-white dark:text-dark-bg px-7'>Projects</div>
                                 <div className='text-center text-2xl'>25+</div>
                             </div>
                             <div className='bg-off-white dark:bg-dark-bg border-[3px] border-primary dark:border-dark-primary'>
-                                <div className='bg-primary dark:bg-dark-primary text-white px-7'>Experience</div>
+                                <div className='bg-primary dark:bg-dark-primary text-white dark:text-dark-bg px-7'>Experience</div>
                                 <div className='text-center text-2xl'>4+</div>
                             </div>
                         </div>

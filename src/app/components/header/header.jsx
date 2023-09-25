@@ -59,10 +59,10 @@ const HeaderComponent = () => {
                                 <Link href="#tech-stack" className='navbar-link'>Tech Stack</Link>
                             </li>
                             <li onClick={() => setIsOpen(false)}>
-                                <Link href="" className='navbar-link'>Projects</Link>
+                                <Link href="/" className='navbar-link'>Projects</Link>
                             </li>
                             <li>
-                                <Link href="" className='navbar-link'>Contact</Link>
+                                <Link href="/" className='navbar-link'>Contact</Link>
                             </li>
                         </ul>
                     </div>

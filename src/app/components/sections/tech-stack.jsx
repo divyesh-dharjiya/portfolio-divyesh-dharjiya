@@ -8,7 +8,7 @@ const TechStackSection = () => {
                 <div className='grid grid-cols-1 md:grid-cols-12 gap-2'>
                     <div className="col-span-12 lg:col-span-4 sm:col-span-6 transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none">
                         <div className='text-xl md:text-2xl xl:text-3xl'>
-                            <div className='bg-primary dark:bg-dark-primary text-white px-4 py-2'>
+                            <div className='bg-primary dark:bg-dark-primary text-white dark:text-dark-bg px-4 py-2'>
                                 <p className='text-center'>Frontend Development</p>
                             </div>
                             <div className='bg-slate-100 dark:bg-dark-bg text-base font-semibold text-center border-4 border-primary dark:border-dark-primary rounded-b-md md:h-[26rem]'>
@@ -27,7 +27,7 @@ const TechStackSection = () => {
                     </div>
                     <div className="col-span-12 lg:col-span-4 sm:col-span-6 transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none">
                         <div className='text-xl md:text-2xl xl:text-3xl'>
-                            <div className='bg-primary dark:bg-dark-primary text-white px-4 py-2'>
+                            <div className='bg-primary dark:bg-dark-primary text-white dark:text-dark-bg px-4 py-2'>
                                 <p className='text-center'>Backend Development</p>
                             </div>
                             <div className='bg-slate-100 dark:bg-dark-bg text-base font-semibold text-center border-4 border-primary dark:border-dark-primary rounded-b-md md:h-[26rem]'>
@@ -44,7 +44,7 @@ const TechStackSection = () => {
                     </div>
                     <div className="col-span-12 lg:col-span-4 sm:col-span-6 transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none">
                         <div className='text-xl md:text-2xl xl:text-3xl'>
-                            <div className='bg-primary dark:bg-dark-primary text-white px-4 py-2 '>
+                            <div className='bg-primary dark:bg-dark-primary text-white dark:text-dark-bg px-4 py-2 '>
                                 <p className='text-center'>Other Tools</p>
                             </div>
                             <div className='bg-slate-100 dark:bg-dark-bg text-base font-semibold text-center border-4 border-primary dark:border-dark-primary rounded-b-md md:h-[26rem]'>
