@@ -2,26 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  html {
+    scroll-padding-top: 90px;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-top: 77px;
+    @apply text-primary dark:text-dark-primary bg-off-white dark:bg-dark-bg;
+  }
+  
+  .primary-button {
+    @apply w-28 text-base font-semibold px-2 py-2 rounded-md border-2 bg-primary dark:bg-dark-primary text-white border-primary dark:border-dark-primary hover:bg-white hover:text-primary hover:dark:text-dark-primary hover:dark:bg-white hover:border-2;
+  }
+
+  .navbar-link {
+    @apply block text-center py-1 lg:px-3 lg:inline-block lg:mt-0 font-semibold hover:dark:text-white hover:text-pink-800;
+  }
+
+  .gradient-text {
+    @apply from-primary via-pink-800 to-pink-900 dark:from-dark-primary dark:via-pink-800 dark:to-pink-900 bg-gradient-to-r bg-clip-text text-transparent;
+  }
+
+  .tech-stack-p {
+    @apply p-2  ;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
