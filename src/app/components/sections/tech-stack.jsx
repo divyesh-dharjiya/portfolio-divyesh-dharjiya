@@ -6,10 +6,10 @@ const TechStackSection = () => {
             <section id="tech-stack" className='mt-24 h-screen'>
                 <p className='text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-extrabold pb-3 mb-4 gradient-text'>Tech Stack</p>
                 <div className='grid grid-cols-1 md:grid-cols-12 gap-2'>
-                    <div className="col-span-12 lg:col-span-4 sm:col-span-6 transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <div className="col-span-12 lg:col-span-3 sm:col-span-6 transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none">
                         <div className='text-xl md:text-2xl xl:text-3xl'>
                             <div className='bg-primary dark:bg-dark-primary text-white dark:text-dark-bg px-4 py-2'>
-                                <p className='text-center'>Frontend Development</p>
+                                <p className='text-center'>Frontend</p>
                             </div>
                             <div className='bg-slate-100 dark:bg-dark-bg text-base font-semibold text-center border-4 border-primary dark:border-dark-primary rounded-b-md md:h-[26rem]'>
                                 <p className='tech-stack-p'>HTML5</p>
@@ -25,10 +25,10 @@ const TechStackSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-12 lg:col-span-4 sm:col-span-6 transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <div className="col-span-12 lg:col-span-3 sm:col-span-6 transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none">
                         <div className='text-xl md:text-2xl xl:text-3xl'>
                             <div className='bg-primary dark:bg-dark-primary text-white dark:text-dark-bg px-4 py-2'>
-                                <p className='text-center'>Backend Development</p>
+                                <p className='text-center'>Backend</p>
                             </div>
                             <div className='bg-slate-100 dark:bg-dark-bg text-base font-semibold text-center border-4 border-primary dark:border-dark-primary rounded-b-md md:h-[26rem]'>
                                 <p className='tech-stack-p'>Node.js</p>
@@ -42,16 +42,25 @@ const TechStackSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-12 lg:col-span-4 sm:col-span-6 transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                    <div className="col-span-12 lg:col-span-3 sm:col-span-6 transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none">
                         <div className='text-xl md:text-2xl xl:text-3xl'>
                             <div className='bg-primary dark:bg-dark-primary text-white dark:text-dark-bg px-4 py-2 '>
-                                <p className='text-center'>Other Tools</p>
+                                <p className='text-center'>Version Control</p>
                             </div>
                             <div className='bg-slate-100 dark:bg-dark-bg text-base font-semibold text-center border-4 border-primary dark:border-dark-primary rounded-b-md md:h-[26rem]'>
                                 <p className='tech-stack-p'>Git</p>
                                 <p className='tech-stack-p'>GitHub</p>
                                 <p className='tech-stack-p'>GitLab</p>
                                 <p className='tech-stack-p'>Bit Bucket</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-span-12 lg:col-span-3 sm:col-span-6 transition transform hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none">
+                        <div className='text-xl md:text-2xl xl:text-3xl'>
+                            <div className='bg-primary dark:bg-dark-primary text-white dark:text-dark-bg px-4 py-2 '>
+                                <p className='text-center'>Other Softwares</p>
+                            </div>
+                            <div className='bg-slate-100 dark:bg-dark-bg text-base font-semibold text-center border-4 border-primary dark:border-dark-primary rounded-b-md md:h-[26rem]'>
                                 <p className='tech-stack-p'>Jira</p>
                                 <p className='tech-stack-p'>Trello</p>
                                 <p className='tech-stack-p'>Slack</p>
